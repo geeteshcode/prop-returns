@@ -1,0 +1,50 @@
+/* for the portrait video  */
+.video_container {
+  width: 400px;
+  height: 700px;
+}
+
+/* for actual video */
+.video_player {
+  width: 100%;
+}
+
+/* for the right button over the video */
+.rightButton {
+  position: fixed;
+  margin-top: -714px;
+  margin-left: 160px;
+  height: 710px;
+  width: 200px;
+}
+
+/* for the left button over the video */
+.leftButton {
+  position: fixed;
+  margin-top: -714px;
+  margin-right: 160px;
+  height: 710px;
+  width: 200px;
+}
+
+/* progressBar styling  */
+
+.progressBar[value] {
+  /* removing defalut style */
+  -webkit-appearance: none;
+
+  appearance: none;
+  height: 4px;
+  box-sizing: unset;
+  display: flex;
+  width: 380px;
+  border-radius: 6px;
+  margin-top: -706px;
+  margin-left: 12px;
+}
+
+/* styling the loading component */
+.progressBar[value]::-webkit-progress-value {
+  background-color: #fff;
+  border-radius: 6px;
+}

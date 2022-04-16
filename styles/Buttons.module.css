@@ -1,0 +1,25 @@
+/* making div-button over the video */
+.button_container {
+  display: flex;
+  position: absolute;
+  width: 400px;
+  height: 712px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-top: -714px;
+}
+
+/* this will have left half */
+.leftButton {
+  cursor: pointer;
+  height: 100%;
+  width: 50%;
+}
+
+/* this will have right half */
+.rightButton {
+  cursor: pointer;
+  height: 100%;
+  width: 50%;
+}
