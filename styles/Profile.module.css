@@ -1,0 +1,18 @@
+.profile_container {
+  /* to make item inline */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.profile_pic {
+  width: 30px !important; /* to overshadow default width */
+  height: 30px !important; /* to overshadow default height */
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.profile_name {
+  color: white;
+}
